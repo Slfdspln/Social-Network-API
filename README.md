@@ -43,6 +43,8 @@ https://drive.google.com/file/d/1iXFTLbhMXFkz4_NUrGWoel05di0Nd3no/view
 
 ## Screenshots
 
+<img width="1470" alt="image" src="https://github.com/Slfdspln/Social-Network-API/assets/121422214/215f3088-9bbf-4383-b901-47c019226903">
+<img width="1470" alt="image" src="https://github.com/Slfdspln/Social-Network-API/assets/121422214/4b945f87-9aa6-4cbe-889b-9e2f93a6aa16">
 
 ## Technologies Used
 
