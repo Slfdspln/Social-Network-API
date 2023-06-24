@@ -80,7 +80,7 @@ This application is powered by Node.js (v16.19.1), Express.js (v.14.18.2), JavaS
 
 7. Once all dependencies are installed, you will then be able to run the command npm start from the root directory to spin up the server. With nodemon installed, you will also be able to utilize the command npm run dev to keep the server spun up between code edits.
 
-8. From there, you can utilize applications such as Insomnia to test the functionality of the API routes within the program and make edits to the code base (Link to install Insomnia -> https://docs.insomnia.rest/insomnia/install).
+8. From there, you can utilize applications such as Insomnia or Postman to test the functionality of the API routes within the program and make edits to the code base (Link to install Insomnia -> https://docs.insomnia.rest/insomnia/install). (Link to install Postman -> https://www.postman.com/downloads/). 
 
 ## Features
 
