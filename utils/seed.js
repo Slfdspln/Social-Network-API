@@ -1,41 +1,31 @@
+// Imports
 const { User, Thought, Reaction } = require("../models");
 const mongoose = require("mongoose");
 
 const connection = require("../config/connection");
 
+// Seed data
 const users = [
   {
-    username: "Ryan",
-    email: "ryan@gmail.com",
+    username: "Cristal",
+    email: "inaliaashanti@Gmail.com",
     thought: [],
-  },
+},
 ];
 
 console.log(connection);
 
-// mongoose
-//   .connect(connection.db, { useNewUrlParser: true })
-//   .catch((err) => {
-//     console.log(err.stack);
-//     process.exit(1);
-//   })
-//   .then(() => {
-//     console.log("connected to db in development environment");
-//   });
-
+// Connects to server
 connection.once("open", async () => {
   console.log("connected");
-
-  await User.deleteMany({});
 
   // Drop existing students
   await User.deleteMany({});
 
+  // Adds seed data to database
   await User.collection.insertMany(users);
 
   console.table(users);
   console.info("Seeding complete! 🌱");
   process.exit(0);
 });
-
-// npm faker-js
